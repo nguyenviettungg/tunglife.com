@@ -1,0 +1,388 @@
+*{margin: 0; padding: 0;} 
+
+*{margin: 0; padding: 0;} 
+/* css cho header */
+.header {
+	width: 100%;
+	height: 340px;
+	/* background: url('images/bg-homepage.jpg'); */
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+
+}
+.nenxam {
+	width: 100%;
+	height: 912px;
+	z-index: 2;
+	position: absolute;
+	background:#17151585 ;
+}
+.header img.bg-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	/* animation: phongto 30s forwards; */
+	z-index: 1;
+
+}
+/* @-webkit-keyframes phongto {
+	0%{transform: scale(1)}
+	100% {transform: scale(1.5)};
+}
+ */
+
+.top-menu .navbar {
+	background: rgba(162, 161, 161, 0.5);
+	width: 1170px;
+	height: 133px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	z-index: 3;
+	margin-left: -585px;
+}
+.top-menu .navbar.maunenden {
+	background: black;
+}
+/* .navbar.maunenden {
+	width: 100%;
+	height: 140px;
+	background: black;
+	position: fixed;
+	top: 0;
+	
+	left: 585px;
+	z-index: 1;
+	overflow: hidden;
+	display: block;
+} */
+
+.phanmenutren {
+	width: 1170px;
+	margin: auto;
+	overflow: hidden;
+}
+.top-menu img.logo-menu {
+	width: 90px;
+	height: 65px;
+	
+	margin-left: 10px;
+}
+.logo .text {
+	color: white;
+	font-family: 'Calistoga', cursive;
+	font-size: 34px;
+	text-transform: capitalize;
+	padding-left: 20px;
+	margin-top: 20px;
+	display:inline-block;
+	
+
+}
+.navbar .logo .maudo {
+	color: #d84e4e;
+}
+.navbar .logo:hover {
+	color: white;
+}
+.navbar .nav .nav-link {
+	color: white;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+ 	margin-top: 45px;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+.navbar .nav .nav-item .nav-link:hover {
+	color: white;
+	/* border: 1px solid red; */
+	/* padding: 5px 10px; */
+	/* border-radius: 10px; */
+	background: #d84e4e;
+}
+.navbar .nav .nav-link.home::after
+{
+	content: '';
+	
+	width: 100%;
+	height: 3px;
+	background: white;
+	display: block;
+	margin-top: 5px;
+}
+.navbar .nav .nav-item:hover .nav-link.home::after {
+	background: #d84e4e;
+}
+.khoitext {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	width: 400px;
+	height: 110px;
+	z-index: 5;
+	color: white;
+	margin-top: -55px;
+	margin-left: -200px;
+}
+.khoitext .chuto {
+	font-size: 50px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 900;
+}
+.khoitext .chunho a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+.khoitext .chunho a:hover {
+	padding: 10px 20px;
+	background: #d84e4e;
+}
+.khoitext .chunho {
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.khoitext .chunho span {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+
+                  /* css cho phan menuduoi */
+
+.phanmenuduoi {
+	width: 100%;
+	height: 152px;
+	background: black;
+	overflow: hidden;
+	/* opacity: 0; */
+	/* transform: translateY(-140px); */
+	/* display: none; */
+}
+.phanmenuduoi.hienthiramanhinh {
+	/* opacity: 1; */
+	/* transform: translateY(140px); */
+	/* display: inline; */
+}
+.phanmenuduoi .navbar {
+	width: 100%;
+	height: 152px;
+	background: black;
+	border: 12px double white;
+}
+.phanmenuduoi ul {
+	transform: translateY(500px);
+	transition: 0.4s;
+}
+.phanmenuduoi .nav .nav-link {
+	margin-top: 20px;
+}
+.phanmenuduoi ul.divaotrong {
+	animation: divaotrong 1s forwards;
+
+}
+@-webkit-keyframes divaotrong {
+	0% {
+		transform: translateY(-500px);
+		opacity: 0;
+	}
+	100% {transform: translateY(0px);opacity: 1}
+}
+.phanmenuduoi img.logo-menu {
+	width: 90px;
+	height: 65px;
+
+}
+.phanmenuduoi  .logo {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	margin-left: -188px;
+	margin-top: 12px;
+
+}
+.navbar.maunenden {
+	width: 100%;
+	height: 90px;
+}
+.navbar.maunenden .logo {
+	left: 10%;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+.navbar.maunenden .text {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.navbar.maunenden img.logo-menu {
+	width: 40px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+/* css cua long */
+.header2{
+	width: 100%;
+	height: 338px;
+	background: url('images/bg-homepage.jpg');
+}
+.top-menu2{
+	width: 1170px;
+	height: 125px;
+	background: #0000004a;
+	margin: auto;
+}
+.top-menu2 img.logo{
+	width: 90px;
+	height: 65px;
+}
+.top-menu2 .navbar.maunen{
+	background: #0000004a;
+	width: 1170px;
+	height: 125px;
+}
+/*.collapse{
+	padding-top: 10px;
+}*/
+/* .navbar-light .navbar-nav .nav-link{
+	color: #eceeef;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler{
+	padding-top: 10px;
+	padding-left: 35px;
+
+} */
+.chu h2{
+			color: #818a91;
+			padding-top: 53px;
+			font-size: 70px;
+		}
+		.chu{
+			width: 100%;
+			height: 213px;
+			text-align: center;
+
+		}
+		.breadcrumbs a{
+			text-decoration: none;
+			color: #818a91;
+		}
+		.breadcrumbs {
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-size: 25px;
+			color: #818a91;
+		}
+		.breadcrumbs_delimiter{
+			margin: 10px;
+		}
+		.lct1{
+			width: 100%;
+			height: 700px;
+			
+		}
+		.thongtin{
+			width: 100%;
+			height: 1100px;
+			background-color: #FF4000;
+			padding-top: 80px;
+		}
+		 
+.trang{
+	width: 714px;
+	height: 900px;
+	background: #fff;
+	padding-top: 15px;
+}
+.book{
+	letter-spacing: 10px;
+	font-size: 35px;
+	color: #fff;
+
+}
+.footer {
+	width: 100%;
+	height: 605px;
+	background: #060505bf;
+	display: block;
+
+}
+.footer h5 {
+	margin-top: 75px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	color: white;
+}
+.footer p {
+	font-family: 'Baskervville', serif;
+	padding-top: 65px;
+	font-size: 16px;
+	color: white;
+}
+.footer ul {
+	font-family: 'Baskervville', serif;
+	padding-top: 65px;
+	font-size: 16px;
+	color: white;
+}
+.footer .email-info .form {
+	margin-top: 65px;
+	/* background: #00000045; */
+	
+
+}
+.email-info .form-control {
+	width: 280px;
+	height: 30px;
+	background: #ffffff4d;
+	margin-top: 5px;
+}
+.cacicon {
+	width: 400px;
+	height: 100px;
+	margin: auto;
+	margin-top: 158px;
+}
+.footer .cacicon i {
+	font-size: 40px;
+	color: #d4ba38;
+	padding: 10px 10px;
+	transition: 0.4s;
+}
+.footer .cacicon i:hover {
+	color: #d43838;
+}
+.thongtinbanquyen {
+	color: #d4ba38;
+}
+.footer .form-control {
+	color: white;
+}
+.footer .form-control::placeholder {
+	color: #e64545;
+}
+/* css cho nutshowmenu */
+.nutshowmenu {
+	width: 100%;
+	/* height: 149px; */height: auto;
+	border-bottom: 1px solid grey;
+}
+.nutshowmenu a {
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	background: #0000009c;
+	border-color: #0000009c;
+	text-transform: uppercase
+
+}
