@@ -14,7 +14,7 @@
 	height: 912px;
 	z-index: 2;
 	position: absolute;
-	background:#17151585 ;
+	background:#17151585 ; 
 }
 .header img.bg-header {
 	position: absolute;
@@ -256,13 +256,13 @@ body {
 	list-style: none;
 	float: left;
 	font-family: 'Baskervville', serif;
-	padding: 0px 20px;
+	padding: 0px 18px;
 	cursor: pointer;
 	margin-top: 50px;
 	text-transform: capitalize;
 }
 .menumonan li._1item.active {
-	
+	cursor: pointer;
 	color: white;
 	background: #6b6520;
 
@@ -270,15 +270,18 @@ body {
 .menumonan ul li:hover {
 	color: white;
 	background: #d84e4e;
+ }
+.menumonan li._1item:hover {
+	border: 1px solid black;
 }
 /* css cho phan khoianh_menu_bigsize (phần tách layer menu) */
-.khoianh_menu_bigsize {
+/* .khoianh_menu_bigsize {
 	position: relative;
 	width: 100%;
 	height: 1840px;
 
-}
-.pizza {
+} */
+/* .pizza {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -287,8 +290,8 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	
-}
-.pasta_rice {
+} */
+/* .pasta_rice {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -297,8 +300,8 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	
-}
-.drink {
+} */
+/* .drink {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -306,8 +309,8 @@ body {
 	left: 0;
 	visibility: hidden;
 	opacity: 0;
-}
-.salad {
+} */
+/* .salad {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -315,8 +318,8 @@ body {
 	left: 0;
 	visibility: hidden;
 	opacity: 0;
-}
-.combo {
+} */
+/* .combo {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -324,12 +327,12 @@ body {
 	left: 0;
 	visibility: hidden;
 	opacity: 0;
-}
-.hiennd {
+} */
+/* .hiennd {
 	z-index: 1;
 	visibility: visible;
 	opacity: 1;
-}
+} */
 
 
 /* css cho khoianh_menu_bigsize (phần pizza) */
