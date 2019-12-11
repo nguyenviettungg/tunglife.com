@@ -511,7 +511,7 @@
 	background: white;
 	z-index: 2;
 	opacity: 0;
-	transition: 0.2s;
+	transition: 0.5s;
 }
 ._motkhoilon .khoichunhat {
 	position: absolute;
@@ -524,7 +524,7 @@
 	background: white;
 	z-index: 2;
 	opacity: 0;
-	transition: 0.2s;
+	transition: 0.5s;
 }
 
 ._motkhoinho:hover .khoichunhat {
@@ -590,13 +590,13 @@
 }
 ._motkhoinho:hover .khoitexttrong {
 	/* opacity: 1; */
-	animation: hientora 0.2s forwards;
+	animation: hientora 0.4s forwards;
 
 
 }
 ._motkhoilon:hover .khoitexttrong {
 	/* opacity: 1; */
-	animation: hientora 0.2s forwards;
+	animation: hientora 0.4s forwards;
 
 
 }

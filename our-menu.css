@@ -409,7 +409,7 @@ body {
 	margin-top: -90px;
 	margin-left: -185px;
 	z-index: 3;
-	transition: 0.4s;
+	transition: 0.5s;
 	opacity: 0;
 }
 ._motkhoilon .khoitexttrong {
@@ -422,7 +422,7 @@ body {
 	margin-top: -90px;
 	margin-left: -185px;
 	z-index: 3;
-	transition: 0.4s;
+	transition: 0.5s;
 	opacity: 0;
 }
 .khoitexttrong p {
@@ -448,13 +448,13 @@ body {
 }
 ._motkhoinho:hover .khoitexttrong {
 	/* opacity: 1; */
-	animation: hientora 0.2s forwards;
+	animation: hientora 0.4s forwards;
 
 
 }
 ._motkhoilon:hover .khoitexttrong {
 	/* opacity: 1; */
-	animation: hientora 0.2s forwards;
+	animation: hientora 0.4s forwards;
 
 
 }
