@@ -551,7 +551,7 @@
 	margin-top: -90px;
 	margin-left: -185px;
 	z-index: 3;
-	transition: 0.4s;
+	transition: 0.5s;
 	opacity: 0;
 }
 ._motkhoilon .khoitexttrong {
@@ -564,7 +564,7 @@
 	margin-top: -90px;
 	margin-left: -185px;
 	z-index: 3;
-	transition: 0.4s;
+	transition: 0.5s;
 	opacity: 0;
 }
 .khoitexttrong p {
