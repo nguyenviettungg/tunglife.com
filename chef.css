@@ -290,6 +290,9 @@
 .thongtinnv { 
 	padding-left: 30px;
  }
+ .thongtinnv._2 {
+ 	padding-right: 30px;
+ }
 .thongtinnv h3 {
 	font-family: 'Comfortaa', cursive;
 	font-weight: 900;
