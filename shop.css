@@ -241,6 +241,9 @@
 .navbar .giohang {
 	font-size: 20px;
 }
+.navbar .btn-danger {
+	padding: 11px;
+}
 .navbar span.total-count {
 	color: red;
 	font-size: 20px;
