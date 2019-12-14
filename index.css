@@ -21,6 +21,8 @@
 	height: 912px;
 	z-index: 2;
 	position: absolute;
+	top: 0;
+	left: 0;
 	background:#17151585 ;
 }
 .header img.bg-header {
@@ -395,12 +397,12 @@
 	padding-bottom: 120px;
 }
 .bakhoivuong .motkhoivuong .phananh {
-	width: 340px;
+	width: 100%;
 	height: 340px;
 	position: relative;
 }
 .bakhoivuong .motkhoivuong img {
-	width: 340px;
+	width: 100%;
 	height: 340px;
 	position: absolute;
 	top: 0px;
@@ -813,3 +815,111 @@
 	color: #e64545;
 }
 
+/* css cho di dong */
+.menudidong {
+	display: none;
+}
+@media (max-width:576px) {
+	*{}
+	body,html {
+		width: 100%;
+		height: 100%;
+	}
+	.header {
+		display: none;
+	}
+	.phanmenuduoi {
+		display: none;
+	}
+	.menudidong {
+		display: block;
+	}
+	.bakhoianh {
+		display: none;
+	}
+	.khoi3tin.didong {
+		display: none;
+	}
+	.menudidong .container-fluid {
+		padding: 0;
+		margin: 0;
+	}
+	.feedbackkhachhang {
+		display: none;
+	}
+	.phanbody {
+		width: 100%;
+		height: auto;
+	}
+
+	.phanbody .hinhanh {
+		display: none;	}
+	.nentrang .col-sm-6 {
+		text-align: center;
+	}
+	.phantext .nentrang h3 {
+		padding-top: 175px;
+		padding-left: 0;
+	}
+	.phantext .nentrang .khoitextnhotrai1, .khoitextnhotrai2 {
+		margin-left: 0;
+		width: 100%;
+	}
+	.phantext .nentrang p {
+		font-size: 12px;
+	}
+	.phantext .nentrang .khoitextnhophai1 {
+		margin-top: 360px;
+	}
+	/* css cho bakhoivuong */
+	.motkhoivuong:nth-child(2),.motkhoivuong:nth-child(3) {
+		display: none;
+	}
+	/* css cho khoithongtinto */
+	.khoithongtinto .khoianhtinto {
+		width: 100%;
+		height: 460px;
+	}
+	.khoithongtinto .khoianhtinto img {
+		width: 100%;
+		height: 460px;
+	}
+	.khoitexttinto h3 {
+		font-size: 20px;
+	}
+	.khoitexttinto p.chuvang {
+		font-size: 14px
+	}
+	.khoitexttinto p {
+		font-size: 14px;
+	}
+	/* css cho footer */
+	.footer p {
+		font-size: 12px;
+	}
+	.footer .col-sm-5 {
+		display: none;
+	}
+	.footer .cacicon {
+		margin-top: 70px;
+	}
+	/* css cho menu navbar */
+	/* #d84e4e mau do */
+	.logo {
+		background: #000000c7;
+	}
+	.logo img {
+		width: 44px;
+		height: 40px;
+		padding-bottom: 10px;
+	}
+	.logo .text {
+		margin-top: 0;
+	}
+	.menudidong .navbar .nav-link {
+		color: black;
+	}
+	.menudidong .navbar {
+		padding: 0;
+	}
+}
