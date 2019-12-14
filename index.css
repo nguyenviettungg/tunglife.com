@@ -853,16 +853,14 @@
 	}
 	.menudidong {
 		display: block;
-	}
+	}     /* het phan css cho header */
 	.bakhoianh {
 		display: none;
 	}
 	.khoi3tin.didong {
 		display: none;
 	}
-	.muitenlen {
-		display: none;
-	}
+	
 	.khoitextnhotrai2 {
 		display: none;
 	}
@@ -920,8 +918,11 @@
 		font-size: 14px;
 	}
 	/* css cho footer */
+	.muitenlen {
+		display: none;
+	}
 	.footer {
-		height: 400px;
+		height: 250px;
 		background: #060505bf;
 	}
 	.footer p {
@@ -931,7 +932,7 @@
 		display: none;
 	}
 	.footer .cacicon {
-		margin-top: 60%;
+		margin-top: 18%;
 	}
 	.footer .col-xs-6 {
 		display: none;
