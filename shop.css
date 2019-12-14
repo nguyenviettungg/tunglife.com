@@ -349,3 +349,97 @@
 	opacity: 1;
 	visibility: visible;
 }
+/* css cho di dong */
+.menudidong {
+	display: none;
+}
+.logochomenudidong {
+		display: none;
+}
+@media (max-width:576px) {
+	*{}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	body,html {
+		width: 100%;
+		height: 100%;
+	}
+	.header {
+		display: none;
+	}
+	.phanmenuduoi {
+		display: none;
+	}
+	.menudidong {
+		display: block;
+	}  
+	.menudidong .container-fluid {
+		padding: 0;
+		margin: 0;
+	}
+	   /* het phan css cho header */
+	/* css cho footer */
+	/* .muitenlen {
+		display: none;
+	} */
+	.footer {
+		height: 250px;
+		background: #060505bf;
+	}
+	.footer p {
+		font-size: 12px;
+	}
+	.footer .col-sm-5 {
+		display: none!important;
+	}
+	.footer .cacicon {
+		margin-top: 18%;
+	}
+	.footer .col-sm-6 {
+		display: none!important;
+	}
+	.footer .cacicon {
+		width: 100%;
+
+	}
+	/* css cho menu navbar */
+	/* #d84e4e mau do */
+	.menudidong .logo {
+		background: #000000c7;
+	}
+	.menudidong .logo img {
+		width: 44px;
+		height: 40px;
+		padding-bottom: 10px;
+	}
+	.logo .text {
+		margin-top: 0;
+	}
+	.menudidong .navbar .nav-link {
+		color: black;
+	}
+	.menudidong .navbar {
+		padding: 0;
+	}
+	.logochomenudidong {
+		display: block;
+	}
+}

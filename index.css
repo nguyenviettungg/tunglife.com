@@ -821,7 +821,7 @@
 }
 .logochomenudidong {
 		display: none;
-	}
+}
 @media (max-width:576px) {
 	*{}
 	.animated {
@@ -856,7 +856,12 @@
 	}
 	.menudidong {
 		display: block;
-	}     /* het phan css cho header */
+	}  
+	.menudidong .container-fluid {
+		padding: 0;
+		margin: 0;
+	}
+	   /* het phan css cho header */
 	.bakhoianh {
 		display: none;
 	}
@@ -867,10 +872,7 @@
 	.khoitextnhotrai2 {
 		display: none;
 	}
-	.menudidong .container-fluid {
-		padding: 0;
-		margin: 0;
-	}
+	
 	.feedbackkhachhang {
 		display: none;
 	}
@@ -880,7 +882,8 @@
 	}
 
 	.phanbody .hinhanh {
-		display: none;	}
+		display: none;	
+	}
 	.nentrang .col-sm-6 {
 		text-align: center;
 	}
@@ -967,3 +970,5 @@
 		display: block;
 	}
 }
+
+
