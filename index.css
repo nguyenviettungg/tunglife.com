@@ -819,6 +819,9 @@
 .menudidong {
 	display: none;
 }
+.logochomenudidong {
+		display: none;
+	}
 @media (max-width:576px) {
 	*{}
 	.animated {
@@ -959,5 +962,8 @@
 	}
 	.menudidong .navbar {
 		padding: 0;
+	}
+	.logochomenudidong {
+		display: block;
 	}
 }

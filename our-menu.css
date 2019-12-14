@@ -642,6 +642,9 @@ body {
 .menudidong {
 	display: none;
 }
+.logochomenudidong {
+		display: none;
+	}
 @media (max-width:576px) {
 	*{}
 	.animated {
@@ -736,7 +739,7 @@ body {
 		height: 130px;
 	}
 	.menumonan ul li {
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.khoianh_menu img.anhtovl {
 		height: 460px;
@@ -800,6 +803,9 @@ body {
 		height: 150px;
 		margin-left: -40%;
 		top: 80%;
+	}
+	.logochomenudidong {
+		display: block;
 	}
 	
 }
