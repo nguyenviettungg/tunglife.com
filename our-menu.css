@@ -638,3 +638,168 @@ body {
 	text-transform: uppercase
 
 }
+/* css cho di dong */
+.menudidong {
+	display: none;
+}
+@media (max-width:576px) {
+	*{}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	body,html {
+		width: 100%;
+		height: 100%;
+	}
+	.header {
+		display: none;
+	}
+	.phanmenuduoi {
+		display: none;
+	}
+	.menudidong {
+		display: block;
+	} 
+	.menudidong .container-fluid {
+		padding: 0;
+	    /* het phan css cho header */
+	}
+	/* css cho footer */
+	.muitenlen {
+		display: none;
+	}
+	.footer {
+		height: 250px;
+		background: #060505bf;
+	}
+	.footer p {
+		font-size: 12px;
+	}
+	.footer .col-sm-5 {
+		display: none!important;
+	}
+	.footer .cacicon {
+		margin-top: 18%;
+	}
+	.footer .col-sm-6 {
+		display: none!important;
+	}
+	.footer .cacicon {
+		width: 100%;
+
+	}
+	/* css cho menu navbar */
+	/* #d84e4e mau do */
+	.logo {
+		background: #000000c7;
+	}
+	.logo img {
+		width: 44px;
+		height: 40px;
+		padding-bottom: 10px;
+	}
+	.logo .text {
+		margin-top: 0;
+	}
+	.menudidong .navbar .nav-link {
+		color: black;
+	}
+	.menudidong .navbar {
+		padding: 0;
+	}
+	/* css cho phanbody our-menu */
+	.phanchuto .text {
+		font-size: 25px;
+	}
+	.phanbody .phanchuto.mb-3 {
+		margin-bottom: 0!important;
+	}
+	.menumonan {
+		width: 100%;
+		height: 130px;
+	}
+	.menumonan ul li {
+		font-size: 8px;
+	}
+	.khoianh_menu img.anhtovl {
+		height: 460px;
+	}
+	.pasta_rice .cottrai {
+		width: 100%;
+	}
+	.pasta_rice .cotphai {
+		width: 100%;
+	}
+	.pasta_rice .cotgiua {
+		width: 100%;
+	}
+	.pasta_rice ._motkhoilon {
+		width: 100%;
+		height: 460px;
+	}
+	.pasta_rice .cotgiua {
+		height: 460px;
+	}
+	._motkhoilon {
+		width: 100%;
+		height: 460px;
+	}
+	._motkhoilon img {
+		width: 100%;
+		height: 460px;
+	}
+	.combo ._1monto img {
+		width: 100%;
+		height: 460px;
+	}
+	.pasta_rice ._motkhoilon img {
+		width: 100%;
+		height: 460px;
+	}
+	._motkhoilon .khoichunhat {
+		opacity: 1;
+		width: 80%;
+		height: 150px;
+		margin-left: -40%;
+		top: 80%;
+	}
+	._motkhoilon .khoitexttrong {
+		opacity: 1;
+		width: 80%;
+		height: 150px;
+		margin-left: -40%;
+		top: 80%;
+	}
+	._motkhoinho .khoitexttrong {
+		opacity: 1;
+		width: 80%;
+		height: 150px;
+		margin-left: -40%;
+		top: 80%;
+	}
+	._motkhoinho .khoichunhat {
+		opacity: 1;
+		width: 80%;
+		height: 150px;
+		margin-left: -40%;
+		top: 80%;
+	}
+	
+}
