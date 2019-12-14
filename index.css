@@ -840,6 +840,10 @@
 	.khoi3tin.didong {
 		display: none;
 	}
+	.muitenlen {
+		display: none;
+	}
+
 	.menudidong .container-fluid {
 		padding: 0;
 		margin: 0;
@@ -894,6 +898,9 @@
 		font-size: 14px;
 	}
 	/* css cho footer */
+	.footer {
+		height: 400px;
+	}
 	.footer p {
 		font-size: 12px;
 	}
@@ -901,7 +908,14 @@
 		display: none;
 	}
 	.footer .cacicon {
-		margin-top: 70px;
+		margin-top: 60%;
+	}
+	.footer .col-xs-6 {
+		display: none;
+	}
+	.footer .cacicon {
+		width: 100%;
+
 	}
 	/* css cho menu navbar */
 	/* #d84e4e mau do */
