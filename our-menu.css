@@ -681,9 +681,12 @@ body {
 		display: block;
 	} 
 	.menudidong .container-fluid {
-		padding: 0;
-	    /* het phan css cho header */
+		padding: 0;}
+	.logochomenudidong {
+		display: block;
 	}
+	    /* het phan css cho header */
+	
 	/* css cho footer */
 	.muitenlen {
 		display: none;
@@ -804,8 +807,6 @@ body {
 		margin-left: -40%;
 		top: 80%;
 	}
-	.logochomenudidong {
-		display: block;
-	}
+	
 	
 }
