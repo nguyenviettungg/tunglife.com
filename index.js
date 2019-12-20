@@ -1,5 +1,22 @@
 ﻿ $(function(){
  	new WOW().init();
+
+ 	
+ // 	hieuungload = new TimelineMax({onComplete:hiennd});
+ // 	hieuungload
+ // 	.from($('.loading'),1,{opacity:0})
+ // 	.from($('.khoiload'),1,{scale:2,opacity:0})
+ // 	.to($('.khoiload'),1,{scale:0.5,ease:Power4.easeOut})
+ // 	.to($('.khoiload'),1,{scale:1,ease:Elastic.easeOut.config(1,0.3)})
+	// .to($('.khoiload'),1,{scale:0.5,ease:Power4.easeOut})
+ // 	.to($('.khoiload'),1,{scale:1,ease:Elastic.easeOut.config(1,0.3)})
+	// // .to($('.khoiload'),1,{scale:0.5,ease:Power4.easeOut})
+ // // 	.to($('.khoiload'),1,{scale:1,ease:Elastic.easeOut.config(1,0.3)})
+ // 	//ketthuc
+ // 	.to($('.khoiload'),1,{scale:3,opacity:0,ease:Power4.easeOut})
+ // 	.to($('.loading'),1,{y:-2000,ease:Power4.easeOut})
+
+
  	console.log($('.phanmenuduoi').offset().top);
  	// var thoigian = setInterval(function(){
  	// 	$('.header').addClass('_2');

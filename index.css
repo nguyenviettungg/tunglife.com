@@ -5,7 +5,31 @@
 							/* font-family: 'Muli', sans-serif; */ /* font cho tieu de va menu */
                           /* font-family: 'Baskervville', serif; */ /* font cho phan noi dung */
 							/* font-family: 'Calistoga', cursive; */ /* font cho logo */
-							
+						
+
+ /* css loading */
+/* .loading {
+	width: 100%;
+	height: 100%;
+	background: #4d5252;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+}
+.khoiload {
+	position: fixed;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+	background: #ccc733;
+	border-radius: 50%;
+} */
 /*  css cho phan menutop */
 .header {
 	width: 100%;
